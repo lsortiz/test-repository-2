@@ -6,7 +6,7 @@ var Twitter = require('twitter-node-client').Twitter;
 
 var app = express();
 //app.set('port',process.env.PORT || 8080);
-app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 3002);
+app.set('port', process.env.OPENSHIFT_NODEJS_PORT || process.env.PORT || 8080);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(bodyParser.urlencoded({ extended: true }));
