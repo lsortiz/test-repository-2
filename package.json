@@ -5,7 +5,6 @@
     "express": "4.13.1",
     "jade": "0.35.0",
     "body-parser": "1.14.2",
-    "twitter-node-client": "*",
-    "twitter-js-client": "*"
+    "twitter-node-client": "*"
   }
 }
