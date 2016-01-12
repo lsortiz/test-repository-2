@@ -7,4 +7,8 @@
     "body-parser": "1.14.2",
     "twitter-node-client": "*"
   }
+  "scripts": {
+    "start": "node server.js"
+    },
+    "main": "server.js"
 }
